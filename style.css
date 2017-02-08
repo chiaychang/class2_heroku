@@ -1,0 +1,298 @@
+body {
+	margin: 0px;
+	background-image: url("../images/snow.jpg");
+}
+
+.div1 {
+	height: 100px;
+	background-color: #ffffff;
+	margin: 0px;
+	padding: 0px;
+}
+
+.div2 {
+	margin: 0px;
+	padding: 0px;
+	clear: both;
+	border-top-style: solid;
+	border-top-width: 2px;
+	border-top-color: #cccccc;
+	overflow: auto;
+}
+
+
+.footer {
+	height: 80px; 
+	background-color: #666666;
+	margin-top: 50px;
+	padding-left: 10px;
+	text-align: center;
+	border-top-style: solid;
+	border-top-color: #4aaaa5;
+	border-top-width: 5px;
+}
+
+.header {
+   height: 100px;
+   width: 250px;
+   background-color: #4aaaa5;
+   color: #ffffff;
+   margin: 0px;
+   padding: 0px;
+   left: 155px;
+   position: relative;
+   float: left;
+}
+
+.header p {
+   text-align: center;
+   margin: auto;
+   padding: 28px;
+   font-family: serif;
+   font-style: bold;
+   font-size: 37px;
+}
+
+.index {
+	height: 100px;
+	width: 240px;
+	right:182px;
+	position: absolute;
+	top: 40px;
+}
+
+.index a {
+    font-family: Arial;
+    font-style: bold;
+    font-size: 17px;
+    color: #cccccc;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    padding: 5px;
+}
+
+.divider {
+	width: 0px;
+	height: 17px;
+	color: #cccccc;
+	border-style: solid;
+	border-width: 1px;
+	display: inline-block;
+    position: relative;
+    top: 12px;
+
+  }
+
+.content {
+	width: 650px;
+	background-color: #ffffff;
+	float: left;
+	position: relative;
+	left: 155px;
+    top: 30px;
+    bottom: 40px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #dddddd;
+}
+
+.connect {
+	width: 270px;
+	height: 180px;
+	background-color: #ffffff;
+	position: relative;
+	right: 130px;
+	float: right;
+	top: 30px;
+	padding: 10px;
+	border-style: solid;
+    border-width: 1px;
+    border-color: #dddddd;
+
+}
+
+.content h1 {
+	color: #4aaaa5;
+	font-family: Arial;
+	padding: 5px;
+	margin-left: 28px;
+	font-size: 30px;
+}
+
+.content p {
+	color: #777777;
+	margin: 15px;
+	padding: 4px;
+	font-family: sans-serif;
+	text-indent: 0px;
+	text-align: left; 
+	font-size: 16px;
+}
+
+#thesis {
+	text-decoration: none;
+	color: #777777;
+	font-family: sans-serif;
+	font-size: 16px;
+}
+
+#thesis:hover {
+	color: pink;
+	font-size: 20px;
+}
+
+.profilepic {
+	height: 150px;
+	width: 150px;
+	float: left;
+    padding: 10px;
+    left-margin
+}
+
+.footer p {
+	padding: 18px;
+	text-align: center;
+	font-family: sans-serif;
+	color: #eeeeee;
+	font-size: 12px;
+}
+
+.connect h2 {
+	color: #4aaaa5;
+	font-family: Arial;
+	padding: 0px 5px 5px 5px;
+	text-align: center;
+}
+
+.connect img {
+	float: left;
+	padding-left: 5px;
+	margin-left: 10px;
+	height: 70px;
+	width: 70px;
+}
+
+.connect hr {
+	width: 95%;
+	border-top-width: 2px;
+	border-top-color: #cccccc; 
+	margin-bottom: 20px;
+}
+
+
+.content hr {
+	width: 95%;
+	border-top-width: 2px;
+	border-top-color: #cccccc; 
+	margin-bottom: 20px;
+}
+
+.profilepic {
+	height: 200px;
+	width: 200px;
+    margin-left: 15px;
+}
+
+#portfoliopics {
+	left: 26px;
+	position: relative;
+}
+.portimg {
+	height: 205px;
+	width: 275px;
+    padding:10px;
+}
+
+button {
+    background-color: #4aaaa5; 
+    width: 275px;
+    height: 40px;
+    left: 10px;
+    bottom: 40px;
+    border-style: none;
+    font-family: sans-serif;
+    font-size: 16px;
+    position: absolute;
+    display: inline-block;
+    z-index: 999;
+    color: #eeeeee;
+}
+
+.div2 a {
+	z-index: 999;
+	text-decoration: none;
+	color: #eeeeee;
+	position: relative;
+}
+
+button:hover {
+	color: pink;
+	font-size: 20px;
+}
+
+form {
+	padding: 10px;
+	width: 600px;
+	font-family: sans-serif;
+	color: #777777;
+	font-size: 16px;
+}
+
+input {
+	box-sizing: border-box;
+	width: 602px;
+	padding: 10px;
+	font-family: sans-serif;
+	font-size: 15px;
+	color:#cccccc;
+	margin: 10px;
+}
+
+input:focus {
+	box-sizing: border-box;
+	width: 602px;
+	padding: 10px;
+	font-family: sans-serif;
+	font-size: 15px;
+	color:#777777;
+	margin: 10px;
+}
+
+textarea {
+	border-color:#cccccc;
+	color: #cccccc;
+	font-family: sans-serif;
+	font-size: 15px;
+	margin: 10px;
+	padding: 10px;
+}
+
+textarea:focus {
+	border-color:#cccccc;
+	color: #777777;
+	font-family: sans-serif;
+	font-size: 15px;
+	margin: 10px;
+	padding: 10px;
+}
+
+label {
+	margin-left: 11px;
+}
+#messageform {
+	height: 270px;
+}
+
+#submitbtn {
+	background-color: #4aaaa5;
+	height: 45px;
+	width: 90px;
+	border-style: none;
+	text-align: center;
+	margin: 5px;
+	padding: 5px;
+	color: #ffffff;
+}
+
+
